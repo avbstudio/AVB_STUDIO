@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .store-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .item-box {
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .item-box h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .item-box img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .item-box p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .item-box .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .item-box .buy-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="store-container">
+        <div class="item-box">
+            <h2>Ultimate Spider-Man #001</h2>
+            <img src="  >
+            <p>Amazing first issue of Ultimate Spider-Man! Grab it now!</p>
+            <a href="#" class="buy-button">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
